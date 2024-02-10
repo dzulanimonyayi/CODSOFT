@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*
+{
+    font-family:'Ubuntu';
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container
+{
+    background-image: url(images/calculator\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.calculator
+{
+    background-color: rgb(146, 0, 0);
+    padding: 30px;
+    border-radius: 30px;
+    outline: solid 5px rgb(87, 87, 87);
+}
+
+.calcName
+{
+    float: right;
+}
+
+.calcName h1
+{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.calculator form input
+{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    outline: solid  rgb(87, 87, 87);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: 700px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+form input.yelloBTN
+{
+    color: rgb(229, 255, 0);
+}
+
+form .results
+{
+    display: flex;
+    padding: 30px 0px;
+}
+
+form .results input
+{
+    cursor:none;
+    padding: 0 5px;
+    width: 240px;
+    height: 60px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    outline: none;
+}
